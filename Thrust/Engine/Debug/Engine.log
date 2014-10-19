@@ -1,0 +1,22 @@
+﻿Build started 05.10.2014 21:24:47.
+     1>Project "H:\Development\c++\Thrust\Engine\Engine.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         H:\Microsoft Visual Studio\VC\bin\CL.exe /c /ZI /nologo /W2 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Game.cpp
+         Game.cpp
+       Link:
+         H:\Microsoft Visual Studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\Development\c++\Thrust\Debug\Engine.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"H:\Development\c++\Thrust\Debug\Engine.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\Development\c++\Thrust\Debug\Engine.lib" /MACHINE:X86 Debug\D3DGraphics.obj
+         Debug\dl_dxf.obj
+         Debug\dl_writer_ascii.obj
+         Debug\Game.obj
+         Debug\Keyboard.obj
+         Debug\Mouse.obj
+         Debug\Sound.obj
+         Debug\Timer.obj
+         Debug\Windows.obj
+         ChiliDirectXFramework.res
+         Engine.vcxproj -> H:\Development\c++\Thrust\Debug\Engine.exe
+     1>Done Building Project "H:\Development\c++\Thrust\Engine\Engine.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.05
