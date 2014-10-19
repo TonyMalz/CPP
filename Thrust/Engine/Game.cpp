@@ -144,7 +144,7 @@ void Game::UpdateModel( )
 
 void Game::ComposeFrame()
 {
-	gfx.DrawRect(viewport.getClip(), RED);
+	//gfx.DrawRect(viewport.getClip(), RED);
 	ship.FocusOn(camera);
 	camera.Draw(ship.getDrawable());
 	camera.Draw(map.getDrawable());
